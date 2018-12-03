@@ -1,0 +1,18 @@
+package com.logical;
+
+public class Fibonacci_Series {
+	public static void main(String[] args) {
+		int n1 = 0, n2 = 1, n3;
+		int n = 5;
+		System.out.println("enter number upto which fibonacci series to print: " + n);
+		System.out.printf(n1 + " " + n2);
+
+		for (int i = 2; i < n; ++i) {
+			n3 = n1 + n2;
+			System.out.printf(" " + n3);
+			n1 = n2;
+			n2 = n3;
+
+		}
+	}
+}
