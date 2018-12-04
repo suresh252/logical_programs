@@ -2,6 +2,7 @@ package com.logical;
 
 public class InterfaceExemple implements A {
 	String a="p";
+	int x=10;
 
 	@Override
 	public void m1() {
