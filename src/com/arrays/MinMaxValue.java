@@ -4,7 +4,7 @@ public class MinMaxValue {
 
 	public static void main(String[] args) {
 
-		int array[] = { 10, 11, 88, 2, 12, 120 };
+		int array[] = { 10, 11, 88, 2, 12, 120,222 };
 
 		//System.out.println(array.length);
 		

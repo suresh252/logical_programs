@@ -18,6 +18,7 @@ public class StringExe {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter a string :");
 		String nextLine = scanner.nextLine();
+		scanner.close();
 
 		List<String> list = Arrays.asList(nextLine.split(" "));
 		System.out.println(list);

@@ -1,6 +1,6 @@
 package com.logical2;
 
-public class DuplicateInArray3 {
+public class TraingleStars {
 	public static void main(String[] args) {
 
 		int z = 1;

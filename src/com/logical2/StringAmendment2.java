@@ -10,6 +10,7 @@ public class StringAmendment2 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Sentence: ");
 		String str = scanner.nextLine();
+		scanner.close();
 		String string = "";
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);

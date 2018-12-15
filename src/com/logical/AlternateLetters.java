@@ -3,7 +3,7 @@ package com.logical;
 public class AlternateLetters {
 
 	public static void main(String[] args) {
-		String str = "ABCDEFGH";
+		String str = "ABCDEFGHIJK";
 		String string = "";
 		char[] actualArray = str.toCharArray();
 
@@ -30,6 +30,6 @@ public class AlternateLetters {
 		}
 
 		String result = new String(requiredArray);
-		System.out.println("\nRequired String is :" + result);
+		System.out.println("Required String is :" + result);
 	}
 }

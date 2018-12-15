@@ -10,6 +10,7 @@ public class PalindromeExe {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the String to check if is a polindrome: ");
 		a = scanner.next();
+		scanner.close();
 		sb = new StringBuffer(a);
 
 		b = sb.reverse().toString();

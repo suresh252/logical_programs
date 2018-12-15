@@ -14,9 +14,9 @@ public class Palindrome1 {
 
 		if (str.equals(string)) {
 
-			System.out.println("Polindrom");
+			System.out.println("palindrome");
 		} else {
-			System.out.println("Not a Palindrom");
+			System.out.println("Not a palindrome");
 		}
 
 	}

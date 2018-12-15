@@ -7,15 +7,16 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		List<String> str = new ArrayList<>();
+		List<String> list = new ArrayList<String>();
 
-		str.add("suresh");
-		str.add("shiva");
-		str.add("naresh");
-		str.add("prasad");
-		str.add("ramesh");
-		str.add("naresh");
-		System.out.println(str);
+		list.add("suresh");
+		list.add("shiva");
+		list.add("naresh");
+		list.add("prasad");
+		list.add("ramesh");
+		list.add("naresh");
+		
+		System.out.println(list);
 		
 
 		

@@ -2,7 +2,8 @@ package com.logical2;
 
 public class StringAmendment {
 
-	public void stringAmendment() {
+	public static void main(String[] args) {
+
 		String str = "HaiJavaWorld";
 		String string = "";
 		for (int i = 0; i < str.length(); i++) {
@@ -17,12 +18,6 @@ public class StringAmendment {
 
 		}
 		System.out.println(string);
-	}
-
-	public static void main(String[] args) {
-		StringAmendment amendment = new StringAmendment();
-		amendment.stringAmendment();
-
 	}
 
 }
