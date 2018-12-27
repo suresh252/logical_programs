@@ -17,8 +17,7 @@ public class ArrayListReadOnlyList {
 			System.out.println(unmodifiableList);
 			unmodifiableList.add('d');
 		} catch (UnsupportedOperationException e) {
-			// r e.printStackTrace();
-			System.out.println(e);
+			e.printStackTrace();
 
 		}
 

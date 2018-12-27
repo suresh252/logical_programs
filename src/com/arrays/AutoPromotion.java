@@ -1,6 +1,7 @@
 package com.arrays;
 
 public class AutoPromotion {
+	
 	public void methodOne(int i) {
 		System.out.println("int-arg");
 
@@ -25,11 +26,11 @@ public class AutoPromotion {
 
 	public static void main(String[] args) {
 		AutoPromotion ap = new AutoPromotion();
-	//	ap.methodOne('a'); // int arg
-		//ap.methodOne(101); // int arg
-	//	ap.methodOne("vishnu"); // string arg
+		// ap.methodOne('a'); // int arg
+		// ap.methodOne(101); // int arg
+		// ap.methodOne("vishnu"); // string arg
 		ap.methodOne(null);
-		//ap.methiodOne(new StringBuffer("sai"));
+		// ap.methiodOne(new StringBuffer("sai"));
 		// ap.methodOne(10.5);//c.e
 	}
 

@@ -3,7 +3,7 @@ package com.logical;
 public class StringWordCount {
 
 	public static void main(String[] args) {
-		String input = "welcome to java session session session java";
+		String input = "welcome to java session java session";
 		String[] words = input.split(" ");
 		int wrc = 1;
 

@@ -12,8 +12,8 @@ public class StringExe {
 		List<String> list1 = Arrays.asList(s.split(" "));
 		System.out.println(list1);
 
-		// with scanner
 		System.out.println("==================================================");
+		// with scanner
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter a string :");

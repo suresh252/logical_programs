@@ -33,11 +33,15 @@ class MyComparator implements Comparator<Integer> {
 	public int compare(Integer i1, Integer i2) {
 
 		// general
-		/*
-		 * if (i1 < i2) return +1; else if (i1 > i2)
-		 * 
-		 * return -1; else return 0;
-		 */
+
+		if (i1 < i2)
+			return +1;
+		else if (i1 > i2)
+
+			return -1;
+		else
+			return 0;
+
 		// return i1.compareTo(i2);=========> [0, 4, 5, 6, 10, 15, 40, 45, 50, 60]
 		// assending order
 		// return -i1.compareTo(i2);=======[60, 50, 45, 40, 15, 10, 6, 5, 4, 0]
@@ -48,7 +52,7 @@ class MyComparator implements Comparator<Integer> {
 		// assending order
 		// return +1; ==== assending sorting order
 		// return -1; ====== dessending sorting order
-		return 0; // only first element
+		// return 0; // only first element
 
 	}
 
