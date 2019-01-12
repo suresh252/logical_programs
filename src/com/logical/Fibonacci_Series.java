@@ -9,9 +9,9 @@ public class Fibonacci_Series {
 
 		for (int i = 2; i < n; ++i) {
 			n3 = n1 + n2;
-			System.out.printf(" " + n3);
 			n1 = n2;
 			n2 = n3;
+			System.out.printf(" " + n3);
 
 		}
 

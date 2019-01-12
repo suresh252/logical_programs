@@ -4,12 +4,12 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		String str = "ramana";
-		String string = "";
 
-		for (int i = str.length() - 1; i >= 0; i--) {
+		char[] charArray = str.toCharArray();
+		for (int i = charArray.length; i > 0; i--) {
 
-			string = string + str.charAt(i);
+			System.out.print(charArray[i - 1]);
 		}
-		System.out.println("reverse string is: " + string);
+
 	}
 }

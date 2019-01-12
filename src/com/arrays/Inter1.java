@@ -1,5 +1,6 @@
 package com.arrays;
 
 public interface Inter1 {
-	public void method1();
+
+	public abstract void method1();
 }
