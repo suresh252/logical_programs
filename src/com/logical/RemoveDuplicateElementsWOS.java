@@ -13,8 +13,7 @@ public class RemoveDuplicateElementsWOS {
 		Dlist.add("ramesh");
 		Dlist.add("naresh");
 		Dlist.add("suresh");
-		System.out.println(Dlist.size());
-
+		
 		List<String> Ndlist = new ArrayList<>();
 		Iterator<String> iterator = Dlist.iterator();
 		while (iterator.hasNext()) {
@@ -28,6 +27,5 @@ public class RemoveDuplicateElementsWOS {
 
 		}
 		System.out.println(Ndlist);
-		System.out.println(Ndlist.size());
 	}
 }

@@ -3,7 +3,7 @@ package com.logical;
 public class AlternateLetters {
 
 	public static void main(String[] args) {
-		String str = "ABCDEFGHIJK";
+		String str = "ABCDEFGHI";
 		String string = "";
 		char[] actualArray = str.toCharArray();
 

@@ -12,7 +12,7 @@ public class CharCount {
 		int wordCount = 0;
 		int lineCount = 0;
 		try {
-			reader = new BufferedReader(new FileReader("D:\\CHENNAI\\sureshresume.docx"));
+			reader = new BufferedReader(new FileReader("D:\\CHENNAI\\sureshresume3.docx"));
 
 			String currentline = reader.readLine();
 			while (currentline != null) {

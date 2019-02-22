@@ -1,5 +1,6 @@
 package com.logical;
 
+//InterfaceExemple class
 interface A {
 	public static void main(String[] args) {
 		

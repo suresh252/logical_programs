@@ -7,9 +7,9 @@ public class IndividualCharCount {
 
 	public static void main(String[] args) {
 
-		String string = "software";
+		String str = "suresh";
 		HashMap<Character, Integer> charCountMap = new HashMap<>();
-		char[] charArray = string.toCharArray();
+		char[] charArray = str.toCharArray();
 
 		for (char c : charArray) {
 			if (charCountMap.containsKey(c)) {
