@@ -1,6 +1,6 @@
 package com.arrays;
 
-public class Test {
+public class Order_Digits {
 
 	public static void main(String[] args) {
 
