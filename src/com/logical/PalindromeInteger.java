@@ -15,9 +15,9 @@ public class PalindromeInteger {
 			n = n / 10;
 		}
 		if (temp == sum) {
-			System.out.println("given number is a palindrome");
+			System.out.println("given number is a palindrome.");
 		} else {
-			System.out.println("given number is a not a palindrome");
+			System.out.println("given number is a not a palindrome.");
 		}
 
 	}
