@@ -10,9 +10,9 @@ public class ArrayElementRemovalProgram {
 
 		System.out.println("Original array: " + Arrays.toString(array));
 
-		int removeIndex = 2;
+		int removeIndex = 3;
 
-		for (int i = removeIndex; i < array.length-1; i++) {
+		for (int i = removeIndex; i < array.length - 1; i++) {
 			array[i] = array[i + 1];
 
 		}
