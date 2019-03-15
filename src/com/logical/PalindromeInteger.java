@@ -4,14 +4,14 @@ public class PalindromeInteger {
 
 	public static void main(String[] args) {
 
-		int r, sum = 0, temp;
+		int digit, sum = 0, temp;
 		int n = 545;
 
 		temp = n;
 		while (n > 0) {
 
-			r = n % 10;
-			sum = (sum * 10) + r;
+			digit = n % 10;
+			sum = (sum * 10) + digit;
 			n = n / 10;
 		}
 		if (temp == sum) {

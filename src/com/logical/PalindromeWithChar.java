@@ -5,12 +5,12 @@ public class PalindromeWithChar {
 	public static void main(String[] args) {
 
 		int i;
-		String str = "ramana";
+		String str = "madama";
 		String string = "";
 		char[] charArray = str.toCharArray();
-		for (i = charArray.length; i > 0; i--) {
+		for (i = str.length()-1; i >= 0; i--) {
 
-			string += charArray[i - 1];
+			string += charArray[i];
 		}
 		if (str.equals(string)) {
 			System.out.println("palindrome");

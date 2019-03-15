@@ -18,9 +18,9 @@ class Singleton {
 	public static synchronized Singleton getSingleton() {
 
 		 singleton=new Singleton();
-		/*if (singleton == null) {
+		if (singleton == null) {
 			singleton = new Singleton();
-		}*/
+		}
 		return singleton;
 	}
 }

@@ -25,3 +25,6 @@ public class LastZeroArray {
 	}
 
 }
+
+//  Output array is: [12, 3, 8, 3, 0, 0, 0]
+

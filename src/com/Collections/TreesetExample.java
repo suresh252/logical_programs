@@ -12,11 +12,11 @@ public class TreesetExample {
 
 		set.add(10);
 		set.add(15);
+		set.add(40);
 		set.add(5);
 		set.add(50);
 		set.add(0);
 		set.add(15);
-		set.add(4);
 		set.add(40);
 		set.add(6);
 		set.add(45);
@@ -34,13 +34,13 @@ class MyComparator implements Comparator<Integer> {
 
 		// general
 
-		if (i1 < i2)
+		/*if (i1 < i2)
 			return +1;
 		else if (i1 > i2)
 
 			return -1;
 		else
-			return 0;
+			return 0;*/
 
 		// return i1.compareTo(i2);=========> [0, 4, 5, 6, 10, 15, 40, 45, 50, 60]
 		// assending order
@@ -50,7 +50,7 @@ class MyComparator implements Comparator<Integer> {
 		// dessending order
 		// return -i2.compareTo(i1); =========== [0, 4, 5, 6, 10, 15, 40, 45, 50, 60]
 		// assending order
-		// return +1; ==== assending sorting order
+		 return +1; //==== assending sorting order
 		// return -1; ====== dessending sorting order
 		// return 0; // only first element
 

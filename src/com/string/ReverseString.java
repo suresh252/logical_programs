@@ -27,22 +27,22 @@ public class ReverseString {
 		System.out.println("revese str4 is :" + str4);
 
 		String str5 = "suresh shiva suvarna";
-		String str6="";
+		
 		char[] charArray2 = str5.toCharArray();
 		int left = 0;
 		int right = 0;
 		right = charArray2.length - 1;
 
 		for (left = 0; left < right; left++, right--) {
-			
+
 			char temp = charArray2[left];
-			charArray2[left]=charArray2[right];
-			charArray2[right]=temp;
-			
+			charArray2[left] = charArray2[right];
+			charArray2[right] = temp;
+
 		}
 		for (char c : charArray2) {
 			System.out.print(c);
-			
+
 		}
 	}
 
