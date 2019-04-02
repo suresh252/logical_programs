@@ -7,6 +7,8 @@ public class Registration {
 	private String name;
 	
 	private String fName;
+	
+	//****
 
 	public int getId() {
 		return id;
