@@ -5,6 +5,8 @@ public class Registration {
 	private int roolNo;
 
 	private String name;
+	
+	private String mail;
 
 	private String fatherName;
 
@@ -33,5 +35,14 @@ public class Registration {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public String getMail() {
+		return mail;
+	}
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+	
 
 }
