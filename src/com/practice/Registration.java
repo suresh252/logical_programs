@@ -2,38 +2,36 @@ package com.practice;
 
 public class Registration {
 
-	private int id;
-	
+	private int roolNo;
+
 	private String name;
-	
-	private String fName;
-	
-	//****
 
-	public int getId() {
-		return id;
-	}
+	private String fatherName;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+	// ****
 
 	public String getName() {
 		return name;
 	}
 
+	public int getRoolNo() {
+		return roolNo;
+	}
+
+	public void setRoolNo(int roolNo) {
+		this.roolNo = roolNo;
+	}
+
+	public String getFatherName() {
+		return fatherName;
+	}
+
+	public void setFatherName(String fatherName) {
+		this.fatherName = fatherName;
+	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public String getfName() {
-		return fName;
-	}
-
-	public void setfName(String fName) {
-		this.fName = fName;
-	}
-	
-	
 
 }
