@@ -3,7 +3,7 @@ package com.arrays;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class Sorting_Numbers {
+public class Sorting_NumberArray {
 
 	public static void main(String[] args) {
 		int[] array = { 9, 4, 1, 2, 5, 8 };
