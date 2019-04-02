@@ -8,6 +8,8 @@ public class Registration {
 	
 	private String mail;
 
+	private String mobile;
+	
 	private String fatherName;
 
 	// ****
@@ -36,12 +38,21 @@ public class Registration {
 		this.name = name;
 	}
 
+
 	public String getMail() {
 		return mail;
 	}
 
 	public void setMail(String mail) {
 		this.mail = mail;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+
 	}
 	
 
